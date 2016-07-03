@@ -1,4 +1,11 @@
 
+html {
+  background: url("http://axeetech.com/wp-content/uploads/2014/03/Galaxy-S5-Wallpapers.jpg");
+  background-size: cover;
+  color: white;
+  background-repeat: no-repeat;
+
+}
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -10,8 +17,28 @@ a {
   color: white;
 }
 
-.main {
-  background-image: url("http://axeetech.com/wp-content/uploads/2014/03/Galaxy-S5-Wallpapers.jpg");
-  background-size: cover;
-  color: white;
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon, .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icon ul li, .nav ul li {
+  display: inline;
 }
