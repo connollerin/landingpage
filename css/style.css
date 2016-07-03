@@ -6,7 +6,8 @@ body {
   padding: 0;
 }
 
-.cover {
-  background-image: url("http://www.planwallpaper.com/static/images/bokeh-wallpaper.jpg");
+.main {
+  background-image: url("http://axeetech.com/wp-content/uploads/2014/03/Galaxy-S5-Wallpapers.jpg");
   background-size: cover;
+  color: white;
 }
