@@ -23,6 +23,23 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+
+}
+
+
+.item3{
+  margin: 30px;
+  padding: 30px;
+  display: block;
+  background-color:rgba(0,0,0,.4);
+  border-radius: 25px;
+}
+
+#btn {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
 }
 
 .container2 {
@@ -33,10 +50,15 @@ a {
   align-items: center;
 }
 
+#heading {
+  text-transform: uppercase;
+}
+
 .icon, .nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 10px;
 }
 
 .icon ul li, .nav ul li {
