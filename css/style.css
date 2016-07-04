@@ -23,23 +23,34 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-
 }
-
 
 .item3{
   margin: 30px;
   padding: 30px;
   display: block;
-  background-color:rgba(0,0,0,.4);
-  border-radius: 25px;
+  background-color:rgba(0,0,0,.6);
+  border-radius: 20px;
+}
+
+#email{
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1em;
 }
 
 #btn {
   border: 1px solid white;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
   margin: 5px;
+  font-size: 1em;
+}
+
+.item3 > #btn {
+  background-color: #00BFA5;
+  border-color: #00BFA5;
+  color: white;
 }
 
 .container2 {
