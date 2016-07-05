@@ -100,7 +100,6 @@ a {
 
 .icon {
   background-color: rgba(0, 0, 128, 1);
-  padding: 1em;
 }
 
 .nav ul li:hover, .icon ul li:hover, a:hover {
