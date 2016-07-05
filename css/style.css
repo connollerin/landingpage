@@ -2,7 +2,7 @@
 html {
   background: url("http://axeetech.com/wp-content/uploads/2014/03/Galaxy-S5-Wallpapers.jpg");
   background-size: cover;
-  color: white;
+  color: rgba(255, 255, 255, 1);
   background-repeat: no-repeat;
 }
 
@@ -17,7 +17,7 @@ body {
 }
 
 a {
-  color: white;
+  color: rgba(255, 255, 255, 1);
 }
 
 .small {
@@ -53,7 +53,7 @@ a {
 }
 
 #btn {
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 1);
   border-radius: 5px;
   padding: 10px;
   margin: 5px;
@@ -66,14 +66,14 @@ a {
 }
 
 .item3 > #btn {
-  background-color: #00BFA5;
-  border-color: #00BFA5;
+  background-color: rgba(0, 191, 165, 1);
+  border-color: rgba(0, 191, 165, 1);
   color: white;
 }
 
 .item3 > #btn:hover {
-  background-color: #019f89;
-  border-color: #019f89;
+  background-color: rgba(1, 159, 137, 1);
+  border-color: rgba(1, 159, 137, 1);
   color: rgba(200, 200, 200, 1);
 }
 
