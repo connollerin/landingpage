@@ -15,4 +15,4 @@ I really enjoyed using flexboxes and think I have the hang of how they work now,
 
 ![layout](screenshots/smallsize.png)
 
-I had difficulty for a while keeping the footer at the bottom of the page, but ended up using flex to make it stay there. I think I could have kept a little more organized in my html and css file because when trying to solve problems like the sticky footer, I could get confused on which classes and divs were inside which. I also worked hard to get the gradient you see in the screen shot of the full sized css complete version, and I'm proud of how my site ended up!
+I had difficulty for a while keeping the footer at the bottom of the page, but ended up using flex to make it stay there. I think I could have kept a little more organized in my html and css file because when trying to solve problems like the sticky footer, I could get confused on which classes and divs were inside which. I also worked hard to get the gradient you see in the screen shot of the full sized css complete version, and I'm proud of how my site ended up! If I had more time, I would have gone further and done the extra credit.
