@@ -3,6 +3,14 @@
   display: none;
 }
 
+.item3 {
+  display: block;
+  margin: 30px;
+  padding: 30px;
+  background-color:rgba(0,0,0,.6);
+  border-radius: 20px;
+}
+
 @media only screen and (max-width: 640px) {
 
   .item3{
@@ -56,14 +64,6 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-}
-
-.item3{
-  display: block;
-  margin: 30px;
-  padding: 30px;
-  background-color:rgba(0,0,0,.6);
-  border-radius: 20px;
 }
 
 #email{
@@ -120,6 +120,7 @@ a {
 
 .icon {
   background-color: rgba(0, 0, 128, 1);
+  padding: 1em;
 }
 
 .nav ul li:hover, .icon ul li:hover, a:hover {
