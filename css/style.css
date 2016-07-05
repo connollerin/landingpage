@@ -1,16 +1,4 @@
 
-.small {
-  display: none;
-}
-
-.item3 {
-  display: block;
-  margin: 30px;
-  padding: 30px;
-  background-color:rgba(0,0,0,.6);
-  border-radius: 20px;
-}
-
 html {
   background: url("http://axeetech.com/wp-content/uploads/2014/03/Galaxy-S5-Wallpapers.jpg");
   background-size: cover;
@@ -28,13 +16,25 @@ body {
   min-height: 100vh;
 }
 
+a {
+  color: white;
+}
+
+.small {
+  display: none;
+}
+
+.item3 {
+  display: block;
+  margin: 30px;
+  padding: 30px;
+  background-color:rgba(0,0,0,.6);
+  border-radius: 20px;
+}
+
 .major {
   flex: 1;
   margin: 30px;
-}
-
-a {
-  color: white;
 }
 
 .container {
